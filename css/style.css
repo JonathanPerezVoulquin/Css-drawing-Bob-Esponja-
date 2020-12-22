@@ -1,0 +1,478 @@
+*{
+	color:transparent;
+}
+div body{
+	
+	width: 400px;
+	height: 25em;
+	border:5px solid #000000 ;
+	}
+
+.contenedorPrincipalAmarillo {
+	background: #FFFF00;
+	width: 400px;
+	height: 25em;	
+	position: absolute;
+	border:5px solid #000;
+	top:60px;
+	left:700px;
+	z-index: 10px;
+
+
+}
+
+div .ojos{
+	width: 80px;
+	height:80px;	
+	background: #FFFFFF;
+	position: relative;
+	left: 120px;
+	top:50px;
+	border:5px solid #000000;
+	border-radius: 100%;
+	display:inline-block;
+	margin-right: -17px;
+}
+
+div .ojoAzul{
+	width: 45px;
+	height:45px;	
+	background: #00aae4;
+	position: absolute;
+	bottom: 15px;
+	left: 15px;
+	border-radius: 100%;
+	
+}
+
+div .ojoNegro{
+	width: 35px;
+	height:35px;	
+	background: #000000;
+	position: absolute;
+	top: 5px;
+	right:5px;
+	border-radius: 100%;
+	
+}
+
+
+
+
+
+/*acá termina el primer ojo con todas sus capas primer problema, no puedo mover el ojo de abajo. */ 
+/*ya lo arregle, mirar bien el tema de los position relative y absolute*/
+
+.nariz{
+width: 22px;
+height: 50px;
+background: #FFFF00;
+position:relative;
+top:180px;
+left:887px;
+border:5px solid #000;
+z-index: 10px;
+border-bottom:transparent;
+border-radius: 40%;
+margin-top: 15px;
+}
+
+
+.boca{
+	width: 200px;
+	height:100px;
+	background: transparent;
+	position:absolute;
+	top: 200px;
+	left:  810px;	
+	border-radius: 50%;
+	border-bottom: 5px solid #000;
+	z-index: 10px;
+
+}
+
+
+.dientes{
+	width:50px;
+	height: 100px;
+	background: #FFF;
+	position:relative;
+
+}
+
+div .dientes {
+	width: 15px;
+	height: 25px;
+	background: #FFF;
+	top: 50px;
+	left:70px;
+	display: inline-block;
+	border: 5px solid #000 ;
+
+}
+
+div .cejas{
+	display: inline-block;	
+}
+
+.ceja1{
+	position:absolute;
+	width: 20px;
+	height: 5px;
+	background:#000;
+	top:135px;
+	left: 825px;
+	-moz-transform: rotate(48deg);
+-webkit-transform: rotate(48deg);
+-o-transform: rotate(48deg);
+-ms-transform: rotate(48deg);
+transform: rotate(48deg);
+}
+
+.ceja2{
+	position:absolute;
+	width: 15px;
+	height: 5px;
+	background:#000;
+	top:122px;
+	left:860px;
+		-moz-transform: rotate(90deg);
+-webkit-transform: rotate(90deg);
+-o-transform: rotate(90deg);
+-ms-transform: rotate(90deg);
+transform: rotate(90deg);
+}
+
+.ceja3{
+	position:absolute;
+	width: 15px;
+	height: 5px;
+	background:#000;
+	top:130px;
+	left:890px;
+		-moz-transform: rotate(-48deg);
+-webkit-transform: rotate(-48deg);
+-o-transform: rotate(-48deg);
+-ms-transform: rotate(-48deg);
+transform: rotate(-48deg);
+	
+}
+
+
+.ceja4{
+	position:absolute;
+	width: 15px;
+	height: 5px;
+	background:#000;
+	top:130px;
+	left: 920px;
+	-moz-transform: rotate(48deg);
+-webkit-transform: rotate(48deg);
+-o-transform: rotate(48deg);
+-ms-transform: rotate(48deg);
+transform: rotate(48deg);
+}
+
+.ceja5{
+	position:absolute;
+	width: 15px;
+	height: 5px;
+	background:#000;
+	top:122px;
+	left:940px;
+		-moz-transform: rotate(90deg);
+-webkit-transform: rotate(90deg);
+-o-transform: rotate(90deg);
+-ms-transform: rotate(90deg);
+transform: rotate(90deg);
+}
+
+.ceja6{
+	position:absolute;
+	width: 15px;
+	height: 5px;
+	background:#000;
+	top:130px;
+	left:960px;
+		-moz-transform: rotate(-48deg);
+-webkit-transform: rotate(-48deg);
+-o-transform: rotate(-48deg);
+-ms-transform: rotate(-48deg);
+transform: rotate(-48deg);
+	
+}
+
+
+
+.camisa{
+	width: 404px;
+	height:4em;
+	background: #fff;
+	position:absolute;
+	top:440px;
+	left:699.5px;
+	border: solid #000;
+
+}
+
+
+.pantalon {
+	width: 404px;
+	height:4em;
+	background:#804000 ;
+	position:absolute;
+	top:503px;
+	left:700px;
+	border:solid #000;
+}
+
+div .primeraLinea{
+	width: 40px;
+	height: 15px;
+	background: #000;
+	position:relative;
+	bottom: 25px;
+	left: 20px
+		
+}
+
+div .segundaLinea{
+	width: 40px;
+	height: 15px;
+	background: #000;
+	position:absolute;
+	bottom: 25px;
+	left: 120px;
+		
+}
+
+div .terceraLinea{
+	width: 40px;
+	height: 15px;
+	background: #000;
+	bottom: 55px;
+	left: 240px;
+	position: relative;
+		
+}
+
+div .cuartaLinea{
+	width: 40px;
+	height: 15px;
+	background: #000;
+	position:relative;
+	bottom: 85px;
+	left: 320px;
+	
+			
+}
+
+
+
+
+.trianguloRojo{
+	 width: 6px; 
+     height: 6px; 
+     
+     position:relative;
+     top:355px;
+     left:865px;
+
+
+     border-left:56px solid #ff0000;
+     border-top:24px solid transparent; 
+     border-bottom: 24px  solid transparent;
+
+
+
+    
+
+
+     	-moz-transform: rotate(90deg);
+-webkit-transform: rotate(90deg);
+-o-transform: rotate(90deg);
+-ms-transform: rotate(90deg);
+transform: rotate(90deg);
+
+}
+
+
+
+.trianguloBlancoDerecho{
+	width: 40px; 
+    height: 40px; 
+    	     
+     position:absolute;
+     top:410px;
+     left:930px;
+
+     border: solid #000;
+     border-top: solid transparent;
+     border-right:solid transparent;
+     z-index:1px;
+   
+  	 
+-moz-transform: rotate(-31deg) translateY(0px);
+-webkit-transform: rotate(-31deg) translateY(0px);
+-o-transform: rotate(-31deg) translateY(0px);
+-ms-transform: rotate(-31deg) translateY(0px);
+transform: rotate(-31deg) translateY(0px);
+}
+
+.trianguloBlancoIzquierdo{
+	width: 40px; 
+    height: 40px; 
+    	     
+     position:absolute;
+     top:410px;
+     left:830px;
+
+     border: solid #000;
+     border-top: solid transparent;
+     border-left: solid transparent;
+     z-index:1px;
+
+
+    
+   
+  	 
+-moz-transform: rotate(31deg) translateY(0px);
+-webkit-transform: rotate(31deg) translateY(0px);
+-o-transform: rotate(31deg) translateY(0px);
+-ms-transform: rotate(31deg) translateY(0px);
+transform: rotate(31deg) translateY(0px);
+
+}
+
+.rombo{
+	width: 52px;
+	height:52px;
+	background: #ff0000;
+	position:relative;
+	top:360px;
+	left:865px;
+	border: solid #000;
+
+	-moz-transform: scale(1) rotate(49deg);
+	-webkit-transform: scale(1) rotate(49deg);
+	-o-transform: scale(1) rotate(49deg);
+	-ms-transform: scale(1) rotate(49deg);
+	transform: scale(1) rotate(49deg);
+
+
+}
+/*después del rombo, cree este parche para tapar lo que sobraban de las lineas del cuello de la camisa*/
+.parche
+{
+	width:208px;
+	height: 52px;
+	background: #FFFF00;
+	position:relative;
+	top:172px;
+	left:800px;
+}
+
+.parcheTriangulo{  /*resolver el triangulo chico de la corbata, como hacerlo?*/
+	width: 20px;
+	height: 20px;
+	background: transparent;
+	position: relative;
+	top: 172px;
+	left: 800px;
+
+	}
+
+
+.contenedorMejillas{
+	width: 30px;
+	height: 30px;
+	background: transparent;
+	position: relative;
+	border: solid #FF6961;
+	bottom: 70px;
+	left: 785px;
+	border-bottom: solid transparent;
+	border-radius: 45%
+}
+
+
+.mejilla2{
+	width: 30px;
+	height: 30px;
+	background: transparent;
+	position: relative;
+	border: solid #FF6961;
+	bottom: 85px;
+	left: 195px;
+	border-bottom: solid transparent;
+	border-radius: 45%
+}
+
+
+.poro1{
+	width: 90px;
+	height: 90px;
+	background: #d5bd51;
+	border-radius: 50%;
+	position: relative;
+	bottom:50px;
+	left: 720px;
+
+
+}
+
+.poro2{
+	width: 50px;
+	height: 50px;
+	background: #d5bd51;
+	border-radius: 50%;
+	position: relative;
+	bottom:120px;
+	left: 980px;
+
+
+}
+
+.poro3{
+
+     width: 50px; 
+     height: 100px; 
+     border: 2px solid #d5bd51; 
+     background: #d5bd51;
+     -moz-border-radius: 0 100px 100px 0;
+     -webkit-border-radius: 0 100px 100px 0;
+     border-radius: 0 100px 100px 0;
+     position:relative;
+     bottom: 400px;
+     left:697px;
+ }
+
+
+ .poro4{
+
+     width: 25px; 
+     height: 50px; 
+     border: 2px solid #d5bd51; 
+     background: #d5bd51;
+     -moz-border-radius: 0 100px 100px 0;
+     -webkit-border-radius: 0 100px 100px 0;
+     border-radius: 0 100px 100px 0;
+     position:relative;
+     bottom: 400px;
+     left:1068px;
+     -moz-transform: rotate(180deg);
+	-webkit-transform: rotate(180deg);
+	-o-transform: rotate(180deg);
+	-ms-transform: rotate(180deg);
+	-transform: rotate(180deg);
+ }
+
+ .poro5{
+	width: 50px;
+	height: 50px;
+	background: #d5bd51;
+	border-radius: 50%;
+	position: relative;
+	bottom:620px;
+	left: 990px;
+ }
